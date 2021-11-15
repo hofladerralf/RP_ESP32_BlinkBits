@@ -3,6 +3,9 @@
 
 bool toggle = false;
 
+BLINKBITS blink;
+
+
 void setup() {
   //Timer
   INIT_RPtimer1();

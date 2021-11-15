@@ -16,7 +16,7 @@ typedef struct{
   bool tm1000;                          //1000mS high/low
 }BLINKBITS;
 
-BLINKBITS blink;
+extern BLINKBITS blink;                 //define globally!!
 
 hw_timer_t *RPtimer1 = NULL;            //pointer to timer function
 
